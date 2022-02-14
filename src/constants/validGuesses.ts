@@ -1744,6 +1744,7 @@ export const VALID_GUESSES = [
   'capon',
   'capos',
   'capot',
+  'potus',
   'capri',
   'capul',
   'caput',
