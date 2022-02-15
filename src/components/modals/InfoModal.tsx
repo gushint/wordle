@@ -15,14 +15,14 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="W" status="correct" />
+        <Cell value="T" status="correct" />
         <Cell value="E" />
+        <Cell value="X" />
         <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="S" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter T is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -48,10 +48,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        This is a fork of react-wordle, an open source project written in React, TypeScript, and Tailwind. The wordlist has been modified to match with my perspective of america. -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/gushint/wordle"
           className="underline font-bold"
         >
           check out the code here
